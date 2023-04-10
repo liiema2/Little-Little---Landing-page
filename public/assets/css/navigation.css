@@ -1,0 +1,111 @@
+/* @orange-page: #ED7200;
+@red-button:#FF000A;
+@yellow-button:#FFDE32;
+@yellow-price:  #FA7D09;
+@green-check: #44C4A1; */
+:root{
+
+    --orange-page: #ED7200;
+--red-button:#FF000A;
+--yellow-button:#FFDE32;
+--yellow-price:  #FA7D09;
+--green-check: #44C4A1;
+
+
+}
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    display: flex;
+    height: 7.625rem;
+    background-color: var(--orange-page);
+   border-bottom-left-radius: 90%;
+   border-bottom-right-radius:90%;
+   width: 1920px;
+}
+.nav-information-page{
+    display: flex;
+}
+.nav-logo-page{
+    margin-left: 12.625rem;
+}
+.nav-information-page{
+    margin-left: 17.0625rem;
+    color: white;
+    font-family: 'Montserrat';
+font-style: normal;
+}
+.nav-hompage{
+    /* padding: 10px; */
+  border: 1px white  solid;
+  /* border-color: white; */
+  border-radius: 12px;
+  padding-top: 10px;
+  height: 42px;
+
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-right: 80px;
+}
+.nav-information-page{
+    margin-top: 29px;
+}
+.nav-event{
+    border: 1px white  solid;
+    /* border-color: white; */
+    border-radius: 12px;
+    padding-top: 10px;
+    height: 42px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: 80px;
+}
+.nav-contact{
+    border: 1px white  solid;
+    /* border-color: white; */
+    border-radius: 12px;
+    padding-top: 10px;
+    height: 42px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: 80px;
+}
+.nav-number{
+    display: flex;
+    margin-top: 34px;
+ justify-content: center;
+}
+.nav-number img{
+height: 32px;
+width: 32px;
+}
+.nav-number p{
+    margin-top: 10px;
+    margin-left: 8px;
+    color: #FFF;
+}
+.nav-number{
+    margin-left: 213px;
+}
+
+body{
+    background-image: linear-gradient(0deg, #ED7200 0%, #FFDE32 45%, #FFDE32 50%, #ED7200 100%);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.logo-damsen{
+    position: absolute;
+    top: 157px;
+    left: 200px;
+}
+.icons-left{
+    position: absolute;
+    top:321px;
+    left: 18px;
+}
