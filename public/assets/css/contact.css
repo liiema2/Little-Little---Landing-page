@@ -1,0 +1,19 @@
+.content-name{
+    position: absolute;top: 200px;;
+    font-family: 'iCiel Koni';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 100px;
+/* or 156% */
+/* top: 50%; */
+left: 50%;
+transform: translate(-50%, -50%);
+display: flex;
+align-items: center;
+
+/* W */
+
+color: #FFFFFF;
+
+}

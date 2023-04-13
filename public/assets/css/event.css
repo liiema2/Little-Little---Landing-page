@@ -1,0 +1,149 @@
+.event{
+    position: absolute;
+    top: 0;
+}
+.design-event-left{
+    position: absolute;
+    top:71px;
+    left: 0;
+}
+.content-name{
+    position: absolute;top: 155px;;
+    font-family: 'iCiel Koni';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 100px;
+/* or 156% */
+/* top: 50%; */
+left: 50%;
+transform: translate(-50%, -50%);
+display: flex;
+align-items: center;
+
+/* W */
+
+color: #FFFFFF;
+
+}
+.design-event-right img{
+    position: absolute;
+    top:14px;
+    right: 0;
+    width: 579px;
+height: 218px;
+    transform: rotate(9.58deg);
+}
+.background-event{
+    position: absolute;
+    top :263px;
+    left: 200px;
+}
+.background-event-conter{
+    position: absolute;
+    top:84px;
+    display: flex;
+
+    left: 58px;
+}
+.background-event-conter-date{
+    display: flex;
+    align-items: center;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 16px;
+margin-top: 38px;
+
+
+
+color: #444444;
+margin-bottom: 8px;
+}
+.background-event-conter-date img{
+    margin-right: 4px;
+    /* margin-top: 38px; */
+}
+.background-event-name{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+margin-bottom: 12px;
+
+color: #6C7272;
+}
+.background-event-price{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 48px;
+/* or 150% */
+
+
+letter-spacing: 0.005em;
+
+color: #FA7D09;
+}
+.information-evnet-number1{
+   width:  288px;
+   margin-left: 43px;
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+height: 479px;
+margin-right: 43px;
+}
+.information-evnet-number1 > div{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #FA7D09;
+display: inline;
+
+}
+.information-evnet-number2{
+    width: 288px;
+}
+.information-evnet-number2 img{
+    /* width: 288px; */
+    margin-bottom: 33px;
+}
+.information-evnet-number2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+
+
+
+    color: #000000;
+}
+.information-evnet-number3{
+    width: 288px;
+    margin-left: 43px;
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+
+
+color: #000000;
+}
+.information-evnet-number3 img{
+    margin-top: 33px;
+}
