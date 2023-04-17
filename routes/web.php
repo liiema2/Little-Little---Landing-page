@@ -26,3 +26,9 @@ Route::get('/events', function () {
 Route::get('/contact', function () {
     return view('contact/contact');
 });
+Route::get('/pay', function () {
+    return view('pay/pay');
+});
+Route::get('/pays', function () {
+    return view('pay/paymentsuccess');
+});

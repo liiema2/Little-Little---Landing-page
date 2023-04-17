@@ -1,0 +1,118 @@
+.background-event{
+    display: flex;
+}
+.background-event{
+    position: absolute;
+    top: 317px;
+    left: 270px;
+}
+.background-event-button-img  {
+    border:none;
+    height: 56px;
+    background-color: unset;
+    width: 56px;
+}
+.background-event-conter{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.background-event-conter {
+    display: flex;
+}
+.conter-lasa-img{
+    position: absolute;
+    bottom: 139px;
+    left: 0;
+}
+.content-name{
+    position: absolute;top: 200px;;
+    font-family: 'iCiel Koni';
+font-style: normal;
+font-weight: 900;
+font-size: 64px;
+line-height: 100px;
+/* or 156% */
+/* top: 50%; */
+left: 50%;
+transform: translate(-50%, -50%);
+display: flex;
+align-items: center;
+
+/* W */
+
+color: #FFFFFF;
+
+}
+.ticket{
+    height: 500px;
+    width: 300px;
+background-color: white;
+    border-radius: 16px;
+text-align: center;
+margin-left: 23px;
+margin-top: 42px;
+}
+.ticket-img{
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+.ticket-name{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #000000;
+margin-bottom: 24px;
+}
+.ticket-namegate{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+margin-bottom: 8px;
+
+/* Yellow / 1 */
+
+color: #FFC226;
+}
+.ticket-dot{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 29px;
+
+margin-bottom: 27px;
+color: #000000;
+}
+.ticket-date{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+margin-bottom: 27px;
+/* Text */
+
+color: #23221F;
+}
+.button-previous{
+    margin-top: 299px;
+    margin-left: 32px;
+    margin-right: 17px;
+}
+
+.next-button{
+    margin-top: 299px;
+    margin-left: 40px;
+    /* margin-right: 17px; */
+}
+

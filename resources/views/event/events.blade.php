@@ -54,7 +54,7 @@
        <a href=""><div class="more">xem chi tiết</div></a>
     </div>
     <div class="background-event-button-img">
-        <img src="{{ url('assets/imgs/icons/previous btn new.png') }}" alt="">
+        <img src="{{ url('assets/imgs/icons/next btn.png') }}" alt="">
     </div>
 
 

@@ -1,0 +1,488 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+
+    --orange-page: #ED7200;
+--red-button:#FF000A;
+--yellow-button:#FFDE32;
+--yellow-price:  #FA7D09;
+--green-check: #44C4A1;
+
+
+}
+.conter-body-left-infomation-pay{
+    position: absolute;
+    top:48px;
+    left: 68px;
+    width: 830px;
+}
+.information-ticket {
+    display: flex;
+}
+.information-ticket div:last-child{
+    margin-left: 64px;
+}
+.conter-body-ticket{
+
+left: 1050px;
+}
+.conter-body-ticket-famly{
+position: absolute;
+left:129px;
+top:-20px;
+}
+.conter-body-left-infomation >div:first-child{
+    display: flex;
+}
+.conter-body-left-infomation div:first-child div{
+   width: 223px;
+}
+.information-ticket div label{
+display: block;
+}
+.information-ticket {
+margin-top: 70px;
+margin-left: 70px;
+}
+.information-ticket div label{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+
+    /* Text */
+
+    color: #23221F;
+
+}
+.information-ticket div:first-child input{
+    width: 233px;
+height: 56px;
+
+/* W */
+
+background: #FFFFFF;
+/* inner shadow */
+
+box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+border-radius: 16px;
+
+}
+.information-ticket div:last-child input{
+    width: 233px;
+height: 56px;
+
+/* W */
+
+background: #FFFFFF;
+/* inner shadow */
+
+box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+border-radius: 16px;
+
+}
+.information-ticket div input{
+    width: 94px;
+    height: 56px;
+
+/* W */
+
+background: #FFFFFF;
+/* inner shadow */
+
+box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+border-radius: 16px;
+border: none;
+padding-left: 10px;
+
+}
+.information-ticket div {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* identical to box height, or 144% */
+
+
+    /* Text */
+
+    color: #23221F;
+
+}
+.information-ticket div:first-child{
+margin-right: 64px;
+}
+.information-ticket-use label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+
+
+    /* Text */
+
+    color: #23221F;
+    display: block;
+
+}
+.information-ticket-use  {
+    margin-left: 70px;
+    margin-top: 18px;
+
+}
+.information-ticket-use  input{
+    width: 391px;
+    height: 56px;
+
+/* W */
+
+background: #FFFFFF;
+/* inner shadow */
+
+box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+border-radius: 16px;
+border: none;
+padding-left: 10px;
+
+}
+.information-ticket-use:last-child input{
+    width: 391px;
+    height: 56px;
+
+}
+.information-ticket-use:first-child input{
+    width: 391px;
+    height: 56px;
+
+}
+.number input{
+    width: 233px;
+height: 56px;
+}
+.conter-body-right-form label{
+    display: block;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Text */
+
+color: #23221F;
+margin-bottom: 8px;
+}
+.conter-body-right-form input{
+    background: #FFFFFF;
+    /* inner shadow */
+
+    box-shadow: inset -1px 3px 3px rgba(179, 91, 11, 0.5);
+    border-radius: 16px;
+    width: 411px;
+height: 56px;
+padding-left: 10px;
+border: none;
+}
+
+.date input {
+    width: 342px;
+    height: 56px;
+}
+.date {
+    display: flex;
+    align-items: center;
+}
+.date div{
+ display: inline;
+ /* margin-left: 16px; */
+ /* display: flex; */
+ align-items: center;
+}
+.date div:last-child{
+ display: inline;
+ margin-left: 16px;
+ margin-top: 30px;
+ display: flex;
+ align-items: center;
+}
+.conter-body-right-form form >div{
+    margin-left: 35px;
+    width: 411px;
+}
+.cvv input{
+    width: 113px;
+    height: 56px;
+}
+.submit{
+    filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45));
+
+}
+.submit  button{
+    /* filter: drop-shadow(0px 4px 8px rgba(165, 15, 15, 0.45)); */
+    height: 68px;
+width: 368px;
+border-radius: 12px;
+background-color:  #FF000A;;
+color: white;
+border: none;
+margin-top: 24px;
+margin-left: 20px;
+font-family: 'iCiel Koni';
+font-style: normal;
+font-weight: 900;
+font-size: 30px;
+line-height: 44px;
+
+}
+.date div button{
+    border: none;
+    width: 53px;
+    /* padding-top: 20px; */
+}
+/* .information-ticket-use input{
+    width: 233px;
+    height: 56px;
+
+} */
+/* //////////////////////////////////////////////////////////////// */
+
+body{
+    background-image: linear-gradient(0deg, #ED7200 0%, #FF9933 45% , #FF9933 50%, #ED7200 100%);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 1080px;
+}
+
+.logo-damsen{
+    position: absolute;
+    top: 157px;
+    left: 200px;
+}
+.icons-left{
+    position: absolute;
+    top:321px;
+    left: 18px;
+}
+.background-yellow{
+    margin-left: 53px;
+
+}
+.icons-bottom{
+    position: absolute;
+    left: 630px;
+    bottom: 0;
+}
+.icons-top-yellow{
+    position: absolute;
+    top:183px;
+    left:807px;
+}
+.icons-top-yellow-red{
+    position: absolute;
+    top:95px;
+    left:1029px;
+}
+.icons-top-children{
+    position: absolute;
+    top:23px;
+    left:1052px;
+}
+.conter-body-ticket{
+    position: absolute;
+    top: -20px;
+    left: 1045px;
+}
+.icons-right{
+    position: absolute;
+    right: 0;
+    top:377px;
+}
+.icons-bottom-right{
+    position: absolute;
+    right: 61px;
+    bottom:17px;
+}
+.backgroud-yellow{
+    position: absolute;
+    top:43px;
+
+
+
+}
+.backgroud-yellow img{
+    /* width: 1784px; */
+}
+.conter-body-left-infomation{
+    position: absolute;
+    top:48px;
+    left: 68px;
+    width: 830px;
+}
+
+.conter-body-left-infomation-star{
+    position: absolute;
+    top:269px;
+    left: 127px;
+
+}
+.conter-body-left-infomation-star div{
+   display: flex;
+   align-items : center;
+   font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height, or 150% */
+
+width: 748px;
+/* Text */
+
+color: #23221F;
+
+opacity: 0.9;
+margin-bottom:8px;
+
+}
+
+.conter-body-between{
+    position: absolute;
+    top:0px;
+    left:904.5px;
+}
+.conter-body-right{
+    position: absolute;
+    top :0;
+
+    left:976px;
+
+}
+.conter-lasa-img{
+    position: absolute;
+    bottom: 38px;
+    left: 0;
+}
+header{
+    position: absolute;
+    top:0;
+
+}
+.nav-number {
+    margin-left: 213px;
+}
+.nav-hompage {
+    /* padding: 10px; */
+    border: 1px white  solid;
+    /* border-color: white; */
+    border-radius: 12px;
+    padding-top: 10px;
+    height: 42px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: 80px;
+}
+.nav-event {
+    border: 1px white  solid;
+    /* border-color: white; */
+    border-radius: 12px;
+    padding-top: 10px;
+    height: 42px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: 80px;
+}
+.nav-contact {
+    border: 1px white  solid;
+    /* border-color: white; */
+    border-radius: 12px;
+    padding-top: 10px;
+    height: 42px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: 80px;
+}
+nav {
+    display: flex;
+    height: 109px;
+    background-color: var(--orange-page);
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    width: 1920px;
+    box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);
+}
+.nav-number p {
+    margin-top: 10px;
+    margin-left: 8px;
+    color: #FFF;
+}
+.nav-number img {
+    height: 32px;
+    width: 32px;
+}
+
+.nav-number{
+    display: flex;
+    margin-top: 34px;
+ justify-content: center;
+}
+.nav-information-page{
+    display: flex;
+}
+
+.nav-information-page{
+    margin-left: 17.0625rem;
+    color: white;
+    font-family: 'Montserrat';
+font-style: normal;
+}
+.nav-logo-page{
+    margin-left: 12.625rem;
+}
+.conter-body{
+    position: absolute;
+    top:361px;
+    left: 201px;
+    height: 600px;
+    width: 539px;
+}
+nav{
+    display: flex;
+    height: 109px;
+    background-color: var(--orange-page);
+   border-bottom-left-radius: 90%;
+   border-bottom-right-radius:90%;
+   width: 1920px;
+   box-shadow: 0px 4px 35px rgba(162, 58, 0, 0.75);
+}
+.conter-body-right{
+    position: absolute;
+    bottom: 119px;
+    right: 200px;
+    /* background-image: url('assets/imgs/background/Group.png'); */
+    background-repeat: no-repeat;
+}
+.from-ticket-service{
+    position: absolute;
+    top:0;
+    display: flex;
+    align-items: center;
+}
+.conter-body-right-form{
+    position: absolute;
+    left: 36px;
+    top: 86px;
+
+    width: 467px;
+
+
+}
