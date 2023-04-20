@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet/less" type="text/css" href="{{ 'assets/less/headding.less' }}" />
+    {{-- <link rel="stylesheet/less" type="text/css" href="{{ 'assets/less/headding.less' }}" /> --}}
     <link rel="stylesheet" href="{{ 'assets/css/navigation.css' }}">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     {{-- <link rel="stylesheet" href="{{'assets/fonts/Montserrat/Montserrat.ttf'}}"> --}}
+
 
     <title>Document</title>
 </head>
@@ -24,6 +25,9 @@
 
         <div class="logo-damsen">
             <img src="{{ url('assets/imgs/logo/image 2.png') }}" alt="">
+        </div>
+        <div class="name-logo">
+            Đầm sen <div>park</div>
         </div>
         <div class="icons-left">
             <img src="{{ url('assets/imgs/icons/18451 [Converted]-06 1.png') }}" alt="">
@@ -83,19 +87,24 @@
             <div class="conter-body-right">
                 <img src="{{ url('assets/imgs/background/Group (1).png') }}" alt="">
                 <div class="conter-body-right-form">
-                    <form action="">
+                    <form action="{{route('pay')}}">
 
-                        <div class="from-ticket-service"> <input type="text" value="Gói gia đình"> <button><img src="{{ url('assets/imgs/icons/Frame (3).png') }}" alt=""></button>
+                        <div class="from-ticket-service"> <input type="text" name="name_ticket" value="Gói gia đình"> <button type="button"><img src="{{ url('assets/imgs/icons/Frame (3).png') }}" alt=""></button>
                         </div>
                         <div class="from-ticket-service-date">
-                            <input type="text" placeholder="Số lượng vé" >
-                            <input type="text"  placeholder="Ngày sử dụng">
-                            <button><img src="{{ url('assets/imgs/icons/Frame (4).png') }}" alt=""></button>
+                            <div>
+                                <input type="text" name="number_ticket" placeholder="Số lượng vé" required>
+                                <input type="text" class="date" name="date_use_ticket"  id="date-input" placeholder="Ngày sử dụng" required>
+                            </div>
+
+                            <button type="button" class="button-date"><img src="{{ url('assets/imgs/icons/Frame (4).png') }}" alt=""></button>
+
                         </div>
+
                         <div class="from-ticket-service-use-infomation">
-                            <input type="text" placeholder="Họ và tên">
-                            <input type="text" placeholder="Số điện thoại">
-                            <input type="text" placeholder="Địa chỉ email">
+                            <input type="text" name="name" placeholder="Họ và tên" required>
+                            <input type="text" name="number_phone" placeholder="Số điện thoại"required>
+                            <input type="text" name="email"  placeholder="Địa chỉ email"required>
                             <button type="submit">Đặt vé</button>
                         </div>
 
@@ -114,18 +123,24 @@
             <img src="{{ url('assets/imgs/icons/Lisa_Arnold_Lay_Do_F2 3 (1).png') }}" alt="">
         </div>
     </div>
+    <div class="from-ticket-service-date-calendar" style="display:none ">
+        <div> <img id="button-previous-month" src="{{url('assets/imgs/icons/Previous.png')}}" alt=""> <div id="calendar-month-year"></div> <img  id="button-next-month"src="{{url('assets/imgs/icons/Next.png')}}" alt=""> </div>
+        <div id="calendar-container">
+
+        </div>
+    </div>
     <header>
         <nav>
             <div class="nav-logo-page"> <img src="{{ url('assets/imgs/logo/logo.png') }}" alt=""> </div>
             <div class="nav-information-page">
                 <div class="nav-hompage">
-                    Trang chủ
+                    <a href=""> Trang chủ</a>
                 </div>
                 <div class="nav-event">
-                    Sự kiện
+                    <a href="{{ url('/events') }}">Sự kiện</a>
                 </div>
                 <div class="nav-contact">
-                    Liên hệ
+                  <a href="{{ url('/contact') }}">  Liên hệ </a>
                 </div>
 
             </div>
@@ -139,5 +154,6 @@
 
     </footer>
 </body>
-
+<script rel="stylesheet" src="{{ 'assets/js/date.js' }}"> </script>
 </html>
+

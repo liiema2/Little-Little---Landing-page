@@ -26,6 +26,13 @@ align-items: center;
 color: #FFFFFF;
 
 }
+.nav-hompage{
+    border: none;
+    }
+    .nav-event{
+        border: 1px white solid;
+    }
+
 .design-event-right img{
     position: absolute;
     top:14px;

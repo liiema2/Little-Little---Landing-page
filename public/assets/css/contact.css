@@ -17,6 +17,13 @@ align-items: center;
 color: #FFFFFF;
 
 }
+ .nav-hompage{
+    border: none;
+    }
+    .nav-contact{
+        border: 1px white solid;
+    }
+
 .address{
     position: relative;
     top:-200px;

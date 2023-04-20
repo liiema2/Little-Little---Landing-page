@@ -29,28 +29,28 @@
             <div class="conter-body-left">
                 <img src="{{ url('assets/imgs/background/Group.png') }}" alt="">
                 <div class="conter-body-left-infomation-pay">
-
+                    <form action="">
                     <div class="information-ticket">
-                        <div><label for="">Số tiền thanh toán</label><input type="text"></div>
-                        <div><label for="">Số lượng vé</label><input type="text"> vé</div>
-                        <div><label for="">Ngày sử dụng</label><input type="text"></div>
+                        <div><label for="">Số tiền thanh toán</label><input type="text" value="{{ number_format($number_ticket * 50000, 0, ',', '.') }} VND"></div>
+                        <div><label for="">Số lượng vé</label><input value="{{$number_ticket}}" type="text"> vé</div>
+                        <div><label for="">Ngày sử dụng</label><input value="{{$date_use_ticket}}"type="text"></div>
                     </div>
                     <div class="information-ticket-use">
 
                         <label for="">Thông tin liên hệ</label>
-                        <input type="text">
+                        <input type="text" value="{{$name}}">
                     </div>
                     <div class="information-ticket-use number">
 
                         <label for="">Điện thoại</label>
-                        <input type="text">
+                        <input type="text" value="{{$number_phone}}">
                     </div>
                     <div class="information-ticket-use">
 
                         <label for="">Email</label>
-                        <input type="text">
+                        <input type="text"value="{{$email}}">
                     </div>
-
+                </form>
                 </div>
 
 
@@ -65,8 +65,8 @@
                     <form action="">
                         <div><label for="">Số thẻ</label><input type="text"></div>
                         <div><label for="">Họ và tên chủ thẻ</label><input type="text"></div>
-                        <div class="date"> <div><label for="">Ngày hết hạn</label><input type="text"></div><div><button><img src="{{ url('assets/imgs/icons/Frame (4).png') }}" alt=""></button></div></div>
-                        <div class="cvv"><label for="">CVV/CVC</label><input type="text"></div>
+                        <div class="date"> <div><label for="">Ngày hết hạn</label><input  id="date-input"  type="text" value="{{$date_use_ticket}}"></div><div><button type="button" class="button-date"><img src="{{ url('assets/imgs/icons/Frame (4).png') }}" alt=""></button></div></div>
+                        <div class="cvv"><label for="">CVV/CVC</label><input type="text" value="***"></div>
                        <div class="submit"><button>Thanh toán</button></div>
                     </form>
 
@@ -87,18 +87,24 @@
             <img src="{{ url('assets/imgs/icons/Trini_Arnold_Votay1 2.png') }}" alt="">
         </div>
     </div>
+    <div class="from-ticket-service-date-calendar" style="display:none">
+        <div> <img id="button-previous-month" src="{{url('assets/imgs/icons/Previous.png')}}" alt=""> <div id="calendar-month-year"></div> <img  id="button-next-month"src="{{url('assets/imgs/icons/Next.png')}}" alt=""> </div>
+        <div id="calendar-container">
+
+        </div>
+    </div>
     <header>
         <nav>
             <div class="nav-logo-page"> <img src="{{ url('assets/imgs/logo/logo.png') }}" alt=""> </div>
             <div class="nav-information-page">
                 <div class="nav-hompage">
-                    Trang chủ
+                    <a href="{{ url('/') }}">Trang chủ</a>
                 </div>
                 <div class="nav-event">
-                    Sự kiện
+                    <a href="{{ url('/events') }}">Sự kiện</a>
                 </div>
                 <div class="nav-contact">
-                    Liên hệ
+                    <a href="{{ url('/contact') }}">  Liên hệ </a>
                 </div>
 
             </div>
@@ -112,5 +118,5 @@
 
     </footer>
 </body>
-
+<script rel="stylesheet" src="{{ 'assets/js/date.js' }}"> </script>
 </html>

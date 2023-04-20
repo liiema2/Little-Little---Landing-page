@@ -39,13 +39,13 @@
             <div class="nav-logo-page"> <img src="{{ url('assets/imgs/logo/logo.png') }}" alt=""> </div>
             <div class="nav-information-page">
                 <div class="nav-hompage">
-                    Trang chủ
+                    <a href="{{ url('/') }}">Trang chủ</a>
                 </div>
                 <div class="nav-event">
-                    Sự kiện
+                    <a href="{{ url('/events') }}">Sự kiện</a>
                 </div>
                 <div class="nav-contact">
-                    Liên hệ
+                    <a href="{{ url('/contact') }}">  Liên hệ </a>
                 </div>
 
             </div>
