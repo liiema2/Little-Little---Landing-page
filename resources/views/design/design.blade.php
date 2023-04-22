@@ -59,5 +59,5 @@
 
     </footer>
 </body>
-
+@yield('js')
 </html>

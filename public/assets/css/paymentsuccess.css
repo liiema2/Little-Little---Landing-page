@@ -116,3 +116,49 @@ color: #23221F;
     /* margin-right: 17px; */
 }
 
+.nmber_ticket{
+    position: absolute;
+    bottom: 45px;
+    display: flex;
+    left: 125px;
+}
+.nmber_ticket div:last-child{
+    margin-left: 1040px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 144% */
+
+
+/* Text */
+
+color: #23221F;
+
+opacity: 0.5;
+}
+.nmber_ticket div:first-child{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height, or 150% */
+
+
+/* Text */
+
+color: #23221F;
+}
+.form-ticket{
+    display: flex;
+    width: 1290px;
+    overflow: hidden;
+    min-width: 0;
+    height: 600px;
+}
+.ticket{
+    /* flex-grow: 1; */
+    flex-shrink: 0;
+}

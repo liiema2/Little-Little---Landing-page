@@ -63,6 +63,9 @@ color: #FFFFFF;
 
     color: #23221F;
 }
+textarea{
+    border: none;
+}
 
 .contact-form{
     position: absolute;
@@ -218,4 +221,30 @@ font-style: normal;
 font-weight: 900;
 font-size: 28px;
 line-height: 41px;
+}
+.message{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: (50%,50%);
+    border-radius: 32px;
+    width: 472px;
+    background-color: white;
+    padding: 42px;
+    height: 169px;
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+
+/* Text */
+
+color: #23221F;
+}
+.message img{
+    position: absolute;
+    right: 20px;
 }

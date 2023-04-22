@@ -11,10 +11,10 @@
         <img src="{{ url('assets/imgs/background/Group (5).png') }}" alt="">
         <div class="contact-form-content">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac mollis justo. Etiam volutpat tellus quis risus volutpat, ut posuere ex facilisis. </p>
-            <form action="{{route('contacted')}}">
-                <div class="name-use"> <input type="text" name="usename" id="" placeholder="Tên"> <input type="text" name="email" placeholder="Email"></div>
-                <div class="name-number"> <input type="text" name="phone" id="" placeholder="Số điện thoại"> <input type="text" name="address" placeholder="Địa chỉ"></div>
-                    <textarea placeholder="Lời nhắn" name="message" id="" cols="30" rows="10"></textarea>
+            <form action="">
+                <div class="name-use"> <input type="text" name="" id="" placeholder="Tên"> <input type="text" placeholder="Email"></div>
+                <div class="name-number"> <input type="text" name="" id="" placeholder="Số điện thoại"> <input type="text" placeholder="Địa chỉ"></div>
+                    <textarea placeholder="Lời nhắn" name="" id="" cols="30" rows="10"></textarea>
                 <div class="button-submit"><button>Gửi liên hệ</button></div>
                 </form>
         </div>
@@ -55,4 +55,13 @@
 <div class="conter-lasa-img">
     <img src="{{ url('assets/imgs/icons/Alex_AR_Lay_Do shadow 1.png') }}" alt="">
 </div>
+<div class="message" id="message">
+    <img id="close" src="{{ url('assets/imgs/icons/Vector (3).png') }}" alt="">
+    Gửi liên hệ thành công.
+    Vui lòng kiên nhẫn đợi phản hồi từ chúng tôi, bạn nhé!
+
+</div>
+@endsection
+@section('js')
+<script rel="stylesheet" src="{{ 'assets/js/new.js' }}"> </script>
 @endsection
